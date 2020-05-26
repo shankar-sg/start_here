@@ -3,6 +3,7 @@ Hello there and thanks for stopping by. My ongoing work in Python and R is showc
 
 # Implementation of Linear Regression Model
 The implementation calculates linear regression cofficients and slope of a list of Xs and ys. This is a reimplementation of gradient descent and optimiation to reach the minimum loss point quicker. For a point (a,b) loss at this point and 8 points surrounding this (a+/-delta, b +/- delta) is calculated. The point where maximum loss is found is picked and moved to as the new (a,b). This is then continued with optimiations to move to a local minimum. The slope and coefficient at the local minimum is the solution of the linear regression model. 
+Code: [sglearn.linear_model]{https://github.com/shankar-sg/pyRepo/blob/master/sglearn/sglearn/linear_model.py}
 
 # Implementation of KNN
 The implementation does classifications using distances between the predicted point and various other already classified points. Eucledian distance between the new point (a,b) and N of the nearest , but already classified points are measured. A majority voting technique is used for classifying the newest point
